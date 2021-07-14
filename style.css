@@ -1,0 +1,84 @@
+
+
+* { font-family: Arial, Helvetica, sans-serif; }
+
+/* Todos los parrafos de la pagina */
+p{ color: #555; }
+
+/* Todos los párrafos contenidos en #primero */
+#primero p{ color: #336699; }
+
+/* Todos los enlaces la pagina */
+a{ color: #CC3300; }
+
+/* Los elementos "em" contenidos en #primero */
+#primero em{ background: #FFFFCC; padding: .1em; }
+
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+em.especial{ background: #FFCC99; border: 1px solid #FF9900; padding:
+.1em; }
+/* Elementos "span" contenidos en .normal */
+.normal span{ font-weight: bold; }
+
+.times {
+    font-family: Georgia, Times, serif;
+    
+}
+
+#titulo1{
+    font-size: 30px;
+    color:teal;
+    font-weight: 800;
+}
+#subtitulo{
+    font-size: 22px;
+    color: blue;
+    font-weight: 800;
+}
+
+strong{
+    color:red;
+    font-weight: bold;
+}
+
+.destacado{
+    color:orange
+}
+em{
+    color: blue;
+}
+.especial, #especial{
+    color:violet
+}
+
+th, td, .tabla1{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding:10px 15px;
+}
+
+#adicional p{
+color:rgb(158, 185, 1);
+}
+
+#adicional a{
+    color:green;
+}
+
+.tipo1{
+    color: orange;
+    font-weight: bold;
+}
+.tipo2{
+    color: red;
+    font-weight: bold;
+}
+
+.contenidoTabla{
+    color:rgb(0, 201, 0);
+}
+
+.contenidoTabla span{
+    color:orange;
+}
+
